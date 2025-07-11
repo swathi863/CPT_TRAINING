@@ -1,0 +1,24 @@
+IO operations/handling
+    -ASCII testfiles - reading writing append characters
+        1.charcter is stored in the form of binary values
+    -function for opening and closing the file
+        syntax
+          -fileobj=open(filename[,access_mode])
+        access modes
+            -r - default mode for opening a file which opens the file for reading only
+            -rb - opens file in binary format
+            -r+ - opens both rading/writing
+            -rb+ - opens both reading/writing in binary format
+            -w - opens writing format creates a file not  the name when destination is not provided
+            -wb - binary format/write
+            -w+ - reading/writing
+            -wb+ - both read and writing in binary format
+            -a - append opens a file to append data
+            -ab - append binary data
+            -a+ - reading and append
+            -ab+ - reading and appending of binary data 
+        
+file obj attributes
+fileobj.com.closed - ret - return true if thr file is closed and false otherwise
+fileobj.mode - opening access
+fileobj.name - return the file name

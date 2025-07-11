@@ -1,0 +1,54 @@
+Exception Handling
+==========================================
+Types of errors syntax,logical ................
+built-in Exceptions
+1.Exception--base class for all Exception
+2.StopIteration--next() method doesnot point any object
+3.SystemExit--sys.exit() function raise
+4.StandardError
+5.ArthemeticError--math calculations /10
+6.OverflowError--Raised when a numerical operation exceeds the maximum limit of a data type.
+7.ZeroDivisionError--10/0---Raised when a division or modulo operation is performed with zero as the divisor.
+8.AssertionError--assert stmt
+9.EOFError--till end last stmt,when no IO or return value occurs
+10.ImportError--Raised when an import statement has issues.
+11.KeyboardInterrupt
+12.LookupError
+13.IndexError--list[1,2,3,4]--Raised when a sequence subscript is out of range. 
+14.NameError----Raised when a local or global name is not found.
+15.EnvirnomentError--method consider /no value
+16.IOError--file IO read finally
+17.SystemError
+18.ValueError---Raised when a function receives an argument of the right type but inappropriate value.
+19.RuntimeError
+20.TypeError---Raised when a system-related operation (like file I/O) fails.
+21.SyntaxError
+22.IndentationError
+23.NotImplementError--oop
+24.AtributeError---inheritance(anstract)
+25.FloatingPointingError---Raised when a floating-point operation fails.
+26.KeyError---Raised when a dictionary key is not found.
+27.MemoryError--Raised when an operation runs out of memory.
+28.OSError----Raised when a system-related operation (like file I/O) fails.  
+29.ModuleNotFoundError--Raised when a module cannot be found.   
+
+
+syntax of try and catch
+try:
+    --------
+    --------
+    -------
+except Exceptionname:
+    --------
+    ------
+    -----
+
+
+try:
+      # Code that might raise an exception
+except SomeException:
+      # Code to handle the exception
+else:
+     # Code to run if no exception occurs
+finally:
+    # Code to run regardless of whether an exception occurs

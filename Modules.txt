@@ -1,0 +1,48 @@
+Modules
+  -math
+  -random
+  -datetime
+  -calendar
+  -json
+    *normalize the date/serializing
+  -.csv
+  -sqlite3
+  -os Modules
+  -collection
+  -regex
+  -itertools
+
+common math function
+ -sqrt
+ -factorial
+ -pow
+ -floor
+ -ceil
+ -pi 
+
+random
+ -randint(x,y)--for integer
+ -random
+ -uniform(x,y) --for  floating
+ -choice
+ -shuffle--[1,2,3,4,5] for this list it produce 120 samples
+ -seed
+ -random.sample--[1,2,3,4,5,6,2,3,4,5] for this list
+
+datetime
+ -datetime.now()--only fetch datetime of machine not cloud based time
+ -datetime.strptime()--it converts string object to epoch time
+ -datetime.strftime()
+ -timedelta
+ -date.today()
+ -datetime.date
+ -%I = 0-12
+ -%p = AM/PM
+ -%H = 0-23.59.59.00000
+
+unions
+int - 8
+float - 16
+char - len(char)/1
+
+LVA - Latest Value Accumulation

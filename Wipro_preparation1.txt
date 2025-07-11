@@ -1,0 +1,86 @@
+python Fundamentals
+========================================================
+Variables
+Data Types
+Operators
+Control Flow
+Functions
+Data Structures
+Basic syntax
+Object Oriented Programming(OOPs)
+
+Data Structures
+============================================
+Built-in Data Structures
+  -Lists
+  -Tuples
+  -Dictionaries
+  -Sets 
+User Defined Data Structures
+  -Linked Lists
+  -Stacks
+  -Queues
+  -Trees
+  -Graphs
+  -Hash Maps(Hash Tables)
+
+Functions
+========================================
+Built-in Functions
+User Defined Functions
+Lambda Functions(Anonymous Functions)
+Recursive Functions
+
+Modules
+============================================
+Standard Library Modules(Built-in)
+    -os: interacting with os.
+    -sys: Accessing system-specific parameters and Functions.
+    -math: Performing mathematical operations and accessing mathematecial constants.
+    -datetime : Working with dates and times.
+    -random : Generating random numbers and sequences.
+    -json : Encoding and decoding JSON data.
+    -collection: Providing specialized container datatypes.
+    -re : Working with regular experssions.
+Third-Party Moduled (Installed via pip)
+    -NumPy : Numerical computing,especially with multi-dimensional arrays.
+    -Pandas : Data manipulation and analysis,practicularly with DataFrames.
+    -Matplotlib : Creating static,animated,and interactive visualization.
+    -SciPy:  Scientific and technical computing.
+    -TensorFlow/PyTorch: Deep learning frameworks.
+    -Requests: Making HTTP requests fro  web interaction.
+    -Scikit-learn: Machine learning algorithms and Tools.
+    -Beautiful Soup:Parsing HTML and XML documents for web scraping.
+    -Flask/Django : web devlopment frameworks.
+
+packages
+=====================================================
+    -NumPy : Numerical computing,especially with multi-dimensional arrays.
+    -Pandas : Data manipulation and analysis,practicularly with DataFrames.
+    -Matplotlib : Creating static,animated,and interactive visualization.
+    -TensorFlow/PyTorch: Deep learning frameworks.
+    -Requests: Making HTTP requests fro  web interaction.
+    -Flask/Django : web devlopment frameworks.
+
+command-line Arguments
+===================================================================
+Positional Arguments
+Optional Arguments(Falgs/Options)
+
+IO operations
+=================================================
+Console I/O 
+    -input 
+    -output
+File I/O 
+    -Opening files
+    -Reading from files
+    -Writing to files
+Other I/O 
+
+Exception Handle
+=============================================================
+Basic Exception Handling(try-except-else-finally)
+Raising Exceptions(raise stmt)
+User-Defined Exceptions
+Assertion(assert stmt)

@@ -1,0 +1,7 @@
+file methods
+fileno()-->file number in ypur Tools
+flush()-->clears the write buffer from i/p 
+isatty()-->returns boolean output ,file stream is interactive or not
+readline(n)-->particular line
+truncate(n)-->reallocates the file size byte
+rstrip()-->
